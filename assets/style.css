@@ -1,0 +1,38 @@
+* {
+	background: #edf0f1;
+	margin-top: 0;
+}
+.nav {
+	display: flex;
+}
+.ttle {
+	margin: 0.7rem 0 0 1.2rem;
+}
+.ttle h2 {
+	color: #24252a;
+	font-size: 3.5em;
+	font-family: 'WindSong';
+	text-transform: capitalize;
+}
+.nav-bar {
+	display: flex;
+	margin: 2rem 3rem 0 auto;
+}
+.nav-op {
+	margin-right: 10rem;
+}
+.nav-bar .nav-op:nth-child(4) {
+	margin-right: 0;
+}
+.nav-op li {
+  text-transform: uppercase;
+  list-style-type: none;
+  color: #24252a;
+  font-family: 'Poppins';
+  font-size: 1.1em;
+}
+.nav-op li a {
+  text-decoration: none;
+  color: #24252a;
+  transition: 0.6s ease 0s;
+}
