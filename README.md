@@ -5,8 +5,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/211ef75b-8499-4ed6-810b-bc3ce27f616a/deploy-status)](https://app.netlify.com/sites/startup-website3984/deploys)
 
-https://startup-website3984.netlify.app/
-
 <h2>Versions/Updates</h2>
 <li>Version-1 released with the title and nav-bar</li>
 <li>Verison-2 coming soon...</li>
