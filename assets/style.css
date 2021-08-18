@@ -1,12 +1,16 @@
 * {
-	background: #edf0f1;
 	margin-top: 0;
 }
 .nav {
 	display: flex;
 }
+.nav img {
+	max-height: 56.2rem;
+	margin-left: -0.47rem;
+	margin-right: -0.47rem;
+}
 .ttle {
-	margin: 0.7rem 0 0 1.2rem;
+	margin: 0.7rem 0 0 -82rem;
 }
 .ttle h2 {
 	color: #24252a;
