@@ -29,7 +29,7 @@
 	margin-right: 0;
 }
 .nav-op li {
-	color: #24252a;
+  color: #24252a;
   text-transform: uppercase;
   list-style-type: none;
   font-family: 'Poppins';
@@ -167,11 +167,56 @@
 	font-size: 1.3em;
 	text-transform: capitalize;
 	text-align: center;
+	border-radius: 0.5rem;
 	transition: 0.5s ease 0s;
 	padding: 0.6rem 0.6rem 0.6rem 0.6rem;
 }
 .con_desc a:hover {
 	color: #fff;
 	background: #49f496;
-	border-radius: 0.5rem;
+}
+.bottom_bar {
+  width: auto;
+  background: #24252a;
+  text-align: center;
+  margin: 5rem -0.5rem -0.5rem -0.5rem;
+}
+.bottom_bar h2 {
+	color: #edf0f1;
+	font-family: 'Poppins';
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-align: center;
+}
+.bottom_bar .unline {
+  background: #333;
+  height: 0.3rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+  margin: -2rem auto 1.3rem auto;
+}
+.bottom_bar p {
+	background: #24252a;
+	color: #fff;
+	font-family: 'Montserrat';
+	font-size: 1.1em;
+	text-transform: lowercase;
+	text-align: center;
+}
+.bottom_bar .p-2 p {
+	margin-top: -0.5rem;
+}
+.bottom_bar .nav-bar {
+	margin: 1.5rem 0 0 0;
+	padding-bottom: 1.5rem;
+	justify-content: center;
+}
+.bottom_bar .nav-bar .nav-op {
+	margin-right: 5rem;
+}
+.bottom_bar .nav-bar .nav-op:nth-child(4) {
+	margin-right: 0;
+}
+.bottom_bar .nav-bar .nav-op li a {
+	color: #fff;
 }
