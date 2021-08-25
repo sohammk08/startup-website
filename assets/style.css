@@ -88,9 +88,16 @@
 .cofs {
 	display: flex;
 	margin-top: 4.5rem;
+	margin-bottom: 3rem;
 }
 .tifab_pg {
 	margin-bottom: 4.5rem;
+}
+.tifab_pg img {
+	display: block;
+	max-width: 30rem;
+	border-radius: 0.5rem;
+	margin: 0 auto 0 auto;
 }
 .tifab_pg p {
 	color: #24252a;
@@ -182,6 +189,7 @@
   margin: 5rem -0.5rem -0.5rem -0.5rem;
 }
 .bottom_bar h2 {
+	background: #24252a;
 	color: #edf0f1;
 	font-family: 'Poppins';
 	font-size: 2.5em;
@@ -207,6 +215,7 @@
 	margin-top: -0.5rem;
 }
 .bottom_bar .nav-bar {
+	background: #24252a;
 	margin: 1.5rem 0 0 0;
 	padding-bottom: 1.5rem;
 	justify-content: center;
@@ -217,6 +226,10 @@
 .bottom_bar .nav-bar .nav-op:nth-child(4) {
 	margin-right: 0;
 }
+.bottom_bar .nav-bar .nav-op li {
+	background: #24252a;
+}
 .bottom_bar .nav-bar .nav-op li a {
+	background: #24252a;
 	color: #fff;
 }
