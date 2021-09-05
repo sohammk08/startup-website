@@ -11,3 +11,5 @@
 
 <h2>State</h2>
 <em>under-dev</em>
+
+<strong>Send a mail at kabeerkhb2020@gmail.com for queries and concerns.</strong>
