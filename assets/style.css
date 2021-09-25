@@ -64,19 +64,20 @@
 	text-transform: capitalize;
 	text-align: center;
 }
-.stp-cpt {
+.cpt {
 	display: flex;
-	margin-top: 2.5rem;
-	margin: 2.5rem 4.5rem 3rem 4.5rem;
+}
+.stp-cpt {
+	background: #24252a;
+	border-radius: 0.5rem;
 }
 .stp-cpt img {
-	max-width: 35rem;
-	border-radius: 0.5rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .cpt_desc {
 	text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
 }
 .cpt_desc h2 {
 	color: #24252a;
@@ -94,7 +95,13 @@
 	margin-top: -1.5rem;
 	margin: -1.5rem 2rem 4rem 2rem;
 }
-.cpt_desc a {
+.mbt {
+	display: block;
+	margin-bottom: 5rem;
+	justify-content: center;
+
+}
+.mbt a {
 	text-decoration: none;
 	color: #333;
 	font-family: 'Montserrat';
@@ -105,7 +112,7 @@
 	transition: 0.5s ease 0s;
 	padding: 0.6rem 0.6rem 0.6rem 0.6rem;
 }
-.cpt_desc a:hover {
+.mbt a:hover {
 	color: #fff;
 	background: #49f496;
 }
