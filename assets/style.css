@@ -66,15 +66,21 @@
 }
 .cpt {
 	display: flex;
+	justify-content: center;
 }
 .stp-cpt {
-	background: #24252a;
+	width: 25rem;
+	border-style: solid;
+	border-color: #333;
 	border-radius: 0.5rem;
+	margin-right: 2.5rem;
+}
+.stp-cpt:nth-child(3) {
+	margin-right: 0;
 }
 .stp-cpt img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 2rem auto 0 auto;
 }
 .cpt_desc {
 	text-align: center;
@@ -82,29 +88,24 @@
 .cpt_desc h2 {
 	color: #24252a;
 	font-size: 2.5em;
-	font-family: 'Poppins';
-	font-weight: bold;
+	font-family: 'Montserrat';
+	font-weight: 300;
 	text-transform: capitalize;
+	margin-top: 1rem;
 }
 .cpt_desc p {
-	color: #24252a;
+	color: #000;
 	font-size: 1em;
 	font-family: 'Montserrat';
-	margin-left: 2rem;
-	margin-right: 2rem;
-	margin-top: -1.5rem;
-	margin: -1.5rem 2rem 4rem 2rem;
+	margin: -1rem 2rem 2rem 2rem;
 }
 .mbt {
-	display: block;
-	margin-bottom: 5rem;
-	justify-content: center;
-
+	margin: 2rem 0 2rem 47%;
 }
 .mbt a {
 	text-decoration: none;
 	color: #333;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	font-size: 1.3em;
 	text-transform: capitalize;
 	text-align: center;
@@ -113,7 +114,7 @@
 	padding: 0.6rem 0.6rem 0.6rem 0.6rem;
 }
 .mbt a:hover {
-	color: #fff;
+	color: #edf0f1;
 	background: #49f496;
 }
 .abt {
